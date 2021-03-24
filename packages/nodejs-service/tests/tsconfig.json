@@ -1,0 +1,16 @@
+{
+  "extends": "../../../tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": "..",
+    "paths": {
+      "@library/*": ["../library/*"],
+      "@models/*": ["../models/*"],
+      "@types": ["../types"],
+      "@errors/*": ["../errors/*"]
+    }
+  },
+  "include": [
+    "./**/*",
+    "../modules.d.ts"
+  ]
+}
