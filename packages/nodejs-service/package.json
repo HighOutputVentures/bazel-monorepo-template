@@ -2,18 +2,26 @@
   "name": "@bazel-monorepo-template/nodejs-service",
   "version": "0.0.1",
   "dependencies": {
-    "@types/node": "^14.14.35",
-    "@types/ramda": "^0.27.39",
+    "@bazel-monorepo-template/nodejs-dependency": "file:../nodejs-dependency",
+    "@highoutput/logger": "^0.4.0",
+    "@koa/router": "^10.0.0",
+    "koa": "^2.13.1",
     "ramda": "^0.27.1"
   },
   "devDependencies": {
     "@types/chai": "^4.2.15",
     "@types/chai-as-promised": "^7.1.3",
     "@types/chance": "^1.1.1",
+    "@types/koa": "^2.13.1",
+    "@types/koa__router": "^8.0.4",
+    "@types/node": "^14.14.35",
+    "@types/ramda": "^0.27.39",
     "@types/sinon": "^9.0.11",
     "chai": "^4.3.4",
     "chai-as-promised": "^7.1.1",
     "chance": "^1.1.7",
-    "sinon": "^10.0.0"
+    "sinon": "^10.0.0",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.3"
   }
 }

@@ -1,8 +1,8 @@
 # Bazel Monorepo Template
 
 ## TODO
-- [ ] NodeJS service package
-- [ ] NodeJS dependency package
+- [x] NodeJS service package
+- [x] NodeJS dependency package
 - [ ] Github Actions
 - [ ] ReactJS package
 - [ ] NextJS package
